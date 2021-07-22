@@ -2,17 +2,19 @@
 
 This repository is a Machine Learning project created for <b>COMP9417 @ UNSW</b>.
 
-We dive into <b>Natural Language Processing (NLP)</b> and do a complete analysis of Quora's Insincere/Toxic question classification
+We dive into classifying if a patient potentially has pneumonia.
 
 <br>
 
-@Kaggle: https://www.kaggle.com/c/quora-insincere-questions-classification/overview
+@Kaggle: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
 ## Overview
 
-An existential problem for any major website today is how to handle toxic and divisive content. [Quora](https://www.quora.com/) wants to tackle this problem head-on to keep their platform a place where users can feel safe sharing their knowledge with the world.
+We are challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, our algorithm needs to automatically locate lung opacities on chest radiographs.
 
-We will be developing a machine learning model that attempts to accurately identify and flag insincere questions.
+## Backstory
+
+Pneumonia accounts for over 15% of all deaths of children under 5 years old internationally. In 2015, 920,000 children under the age of 5 died from the disease. In the United States, pneumonia accounts for over 500,000 visits to emergency departments and over 50,000 deaths in 2015, keeping the ailment on the list of top 10 causes of death in the country.
 
 ## Authors
 
