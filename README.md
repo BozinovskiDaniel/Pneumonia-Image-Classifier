@@ -8,6 +8,13 @@ We dive into classifying if a patient potentially has pneumonia.
 
 @Kaggle: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
+## Guide
+
+Part 0: [Exploratory Data Analysis (EDA)](https://github.com/BozinovskiDaniel/COMP9417-ML-Project/blob/main/EDA_Pneuomonia.ipynb)
+Part 1: [Feature Extraction for Standard Models](https://www.kaggle.com/danielbozinovski/p1-feature-extraction-for-standard-models)
+Part 2: [Modelling Pneumonia - Standard Models](https://www.kaggle.com/danielbozinovski/p2-modelling-pneumonia-standard-models)
+Part 3: [Modelling Pneumonia - More Complex Models](https://www.kaggle.com/danielbozinovski/p3-modelling-pneumonia-neural-networks)
+
 ## Overview
 
 We are challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, our algorithm needs to automatically locate lung opacities on chest radiographs.
