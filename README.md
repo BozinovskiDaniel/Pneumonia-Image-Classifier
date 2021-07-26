@@ -8,7 +8,7 @@ We dive into classifying if a patient potentially has pneumonia.
 
 @Kaggle: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
-## Guide
+## Contents
 
 | Part |                                                          Notebook                                                           |                                                                                                                                                         Explanation |
 | ---- | :-------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
