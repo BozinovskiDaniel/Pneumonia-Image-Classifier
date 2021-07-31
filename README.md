@@ -4,13 +4,11 @@ This repository is a Machine Learning project created for <b>COMP9417 @ UNSW</b>
 
 We dive into classifying if a patient potentially has pneumonia.
 
-<br>
-
-@Kaggle: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
+@Kaggle Competition: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
 ## Contents
 
-| Part |                                                          Notebook                                                           |                                                                                                                                                         Explanation |
+| Part |                                                          File                                                           |                                                                                                                                                         Explanation |
 | :----: | :-------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 0    |  [Exploratory Data Analysis (EDA)](https://github.com/BozinovskiDaniel/COMP9417-ML-Project/blob/main/EDA_Pneuomonia.ipynb)  |                                                                                                                   Exploring and <b>analysing</b> the given data set |
 | 1    | [Feature Extraction for Standard Models](https://www.kaggle.com/danielbozinovski/p1-feature-extraction-for-standard-models) |                                                                                    Code used to <b>extract features</b> from medical images and save to a .csv file |
