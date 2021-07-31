@@ -10,14 +10,14 @@ We dive into classifying if a patient potentially has Pneumonia based on their m
 
 | Part |                                                            File                                                             | Explanation                                                                                                                                                         |
 | :--: | :-------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  0   |  [Exploratory Data Analysis (EDA)](https://github.com/BozinovskiDaniel/COMP9417-ML-Project/blob/main/EDA_Pneuomonia.ipynb)  | Exploring and <b>analysing</b> the given data set                                                                                                                   |
-|  1   | [Feature Extraction for Standard Models](https://www.kaggle.com/danielbozinovski/p1-feature-extraction-for-standard-models) | Code used to <b>extract features</b> from medical images and save to a .csv file                                                                                    |
-|  2   |   [Modelling Pneumonia - Standard Models](https://www.kaggle.com/danielbozinovski/p2-modelling-pneumonia-standard-models)   | Standard models include: <b>Logistic Regression</b>, <b>kNN</b>, <b>Gaussian Naive Bayes</b>, <b>Random Forest</b>, <b>SVM</b> & <b>Gradient Boosted Classifier</b> |
-|  3   | [Modelling Pneumonia - More Complex Models](https://www.kaggle.com/danielbozinovski/p3-modelling-pneumonia-neural-networks) | Complex Models include: <b>Fully-Connected NN</b>, <b>Convolutional NN</b>, <b>Mobile-Net w/ TransferLearning</b>                                                   |
+|  0   |  [Exploratory_Data_Analysis](https://github.com/BozinovskiDaniel/COMP9417-ML-Project/blob/main/EDA_Pneuomonia.ipynb)  | Exploring and <b>analysing</b> the given data set                                                                                                                   |
+|  1   | [Feature_Extraction_Standard_Models](https://www.kaggle.com/danielbozinovski/p1-feature-extraction-for-standard-models) | Code used to <b>extract features</b> from medical images and save to a .csv file                                                                                    |
+|  2   |   [Modelling_Standard_Models](https://www.kaggle.com/danielbozinovski/p2-modelling-pneumonia-standard-models)   | Standard models include: <b>Logistic Regression</b>, <b>kNN</b>, <b>Gaussian Naive Bayes</b>, <b>Random Forest</b>, <b>SVM</b> & <b>Gradient Boosted Classifier</b> |
+|  3   | [Modelling_Deep_Learning_Models](https://www.kaggle.com/danielbozinovski/p3-modelling-pneumonia-neural-networks) | Complex Models include: <b>Fully-Connected NN</b>, <b>Convolutional NN</b>, <b>Mobile-Net w/ TransferLearning</b>                                                   |
 
 ## Overview
 
-We are challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, our algorithm needs to automatically locate lung opacities on chest radiographs.
+We are challenged to build an algorithm to detect for Pneumonia in medical images. 
 
 ## Backstory
 
