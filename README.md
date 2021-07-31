@@ -2,7 +2,7 @@
 
 This repository is a Machine Learning project created for <b>COMP9417 @ UNSW</b>.
 
-We dive into classifying if a patient potentially has pneumonia.
+We dive into classifying if a patient potentially has Pneumonia based on their medical images.
 
 @Kaggle Competition: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
