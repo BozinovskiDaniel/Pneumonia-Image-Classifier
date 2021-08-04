@@ -70,9 +70,8 @@ To tune our hyper-parameters, we utilised Sklearn’s Random Grid Search. This w
 Regarding our Deep Learning models, we utilised a large amount of manual hyper-parameter tuning as using tools such as Grid Search would take far too long to train some models. We also employed call-back functions from the Keras library to improve our Neural Networks performance. A call-back is a set of functions to be applied at given stages of the training procedure. Call-backs give you an internal view of the model’s state and statistics during training. The main 3 call-backs that we have used include:
 -	Early Stopping – one of the more important call-backs as it actively works to prevent over-fitting when training our models. We know that training over too many epochs can result in a model overfitting to the training dataset, whilst training over too little epochs will result in the model underfitting. Early stopping is essentially a method that allows you to specify many epochs to train over and stops training once the model’s performance ceases to improve on the validation set (i.e., before overfitting begins to occur). (MachineLearningMastery, 2020) 
 -	Learning Rate Scheduler – to vary the learning rate for a Deep Learning model, we use the Learning Rate Scheduler call-back that seeks to adjust the learning rate according to a pre-defined schedule. The learning rate function that we tested with was exponential decay.
--	Model Checkpoint – a call-back where a “snapshot” of the state of the system is taken in case of the system failing. If there is a problem in training, the model can revert to this “snapshot”. This is a precautionary call-back.
+-	Model Checkpoint – a call-back where a “snapshot” of the state of the system is taken in case of the system failing. If there is a problem in training, the model can revert to this “snapshot”. This is a precautionary call-back.<img width="513" alt="Screen Shot 2021-08-04 at 3 32 59 pm" src="https://user-images.githubusercontent.com/47773746/128127367-711a72c5-b6e7-484a-a7e0-542ed653e9c4.png">
 
-![image](https://user-images.githubusercontent.com/47773746/128126620-d0357c78-2729-4f9a-9ce3-c81d4436d5d7.png)
 
 <img width="425" alt="Screen Shot 2021-08-04 at 3 30 34 pm" src="https://user-images.githubusercontent.com/47773746/128127138-4ed5199a-bc86-4890-ab24-f44bb9aa6a9b.png">
 
@@ -105,6 +104,11 @@ We utilised the following evaluation metrics for evaluating the performance of o
 
 We also utilised a Confusion Matrix that allowed us to also effectively summarise the performance of our model’s ability to classify.
 
+## Part 2: Results
+
+### Part 2.1: Hyper-parameter Tuning Results
+
+Here is a table summarised the optimal hyper-paramters found when using the randomised search
 
 ## License
 
