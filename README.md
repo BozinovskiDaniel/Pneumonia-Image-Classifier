@@ -60,10 +60,18 @@ Regarding the standard Sklearn models learned throughout the course, we still at
 
 We have included the diagram (AISummer, 2021) to see a comparison with the number of parameters/operations to the accuracy for many various CNN architectures. We can see that it is evident that more parameters do not necessarily lead to better accuracy.
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/47773746/128126705-28d66f5d-36d3-4640-aca5-289a47306fdd.png)
+
+### Part 1.2: Convolutional Neural Networks Tested
+
+Within this section, we go through the various stages of our CNNs architectures. We progressively built our network, by adding more convolutions (making our network deeper) and adding max pooling to reduce variance and computations throughout. As we make our network deeper, we will notice that our network will begin overfitting, so to attempt to counteract this, we can begin adding drop-out layers which will randomly set the outgoing edges of hidden units to 0 at each update of the training phase. (TowardsDataScience, 2019)
+
+We also want to note that we usually want to place dropouts (ones with a greater drop-out rate) on the fully connected layers (towards the end) because they are the ones with the largest number of parameters, which would make them likely to excessively adapt and cause overfitting. (StackOverflow, 2017)
+
+According to literature, the basic principle that should be followed when building a CNN is to ‘keep the feature space wide and shallow in the initial stages of the network, and then make it narrower and deeper towards the end’. (TowardsDataScience, 2018) Note: Since the borders of the medical images aren’t very important for this classification problem (we are mainly looking at the centre where the lungs are), we didn’t apply any padding to the input layers.
 
 
-### Part 1.2: Hyper-parameter Tuning
+### Part 1.3: Hyper-parameter Tuning
 
 The hyper-parameters that were considered for each learning algorithm are summarised in Table 1. Model Hyperparameters are the process governing the entire training process. Hyper-parameters are crucial in directly controlling the behaviour of the training algorithm, having a huge impact on the performance of the model being trained. For example, if the learning rate for a model is too low, the model may miss the important patterns of the data, but if it is too high it may have collisions. (TowardsDataScience, 2018)
 
@@ -75,8 +83,35 @@ Regarding our Deep Learning models, we utilised a large amount of manual hyper-p
 -	Model Checkpoint – a call-back where a “snapshot” of the state of the system is taken in case of the system failing. If there is a problem in training, the model can revert to this “snapshot”. This is a precautionary call-back.
 
 ![image](https://user-images.githubusercontent.com/47773746/128126620-d0357c78-2729-4f9a-9ce3-c81d4436d5d7.png)
-![image](https://user-images.githubusercontent.com/47773746/128126608-55feaeec-2564-4328-9cad-136ee5a5c24b.png)
 
+### Part 1.4: Feature Extraction for Deep Learning Models
+
+Extracting our features for our Deep Learning models was significantly easier than for our standard models. This is because all we had to do was convert the given images into pixel arrays using the Python library Pydicom, and reformat the array in a way that was acceptable for our Neural Networks (this shape was 128x128x3).
+
+### Part 1.5: Feature Extraction for Standard Models
+
+As mentioned previously, to extract features for our standard models, we had to follow a traditional image pre-processing approach. This entailed extracting specific image features including:
+-	Area of opacity
+-	The perimeter of visible lung regions shown
+-	The various Hu moments
+-	The mean and standard deviation of the unenhanced dicom image
+-	The various contours in each image, etc
+
+Once we had pre-processed each image, we had then saved the features into a new csv file, which we had loaded up into another file to run our models on.
+
+![image](https://user-images.githubusercontent.com/47773746/128126834-5bcb2c3f-30b5-4fcd-aa3d-3e2f273f0aaa.png)
+
+
+### Part 1.6: Evaluation Metrics
+
+We utilised the following evaluation metrics for evaluating the performance of our various models:
+- Accuracy: this is the quintessential metric regarding classification. It refers to a ratio between the correctly predicted observations over the total number of observations. 
+  - A high accuracy on test data is needed to be able to effectively classify radiographs on whether they have Pneumonia or not.
+-	Recall (Sensitivity): the ratio of correct positive predictions made from all positive predictions that could have been made.
+-	Precision: the ratio of correctly predicted positive observations over the total predicted positive observations.
+-	Area under Curve (AUC): provides an aggregate measure of performance across all possible classification thresholds.
+
+We also utilised a Confusion Matrix that allowed us to also effectively summarise the performance of our model’s ability to classify.
 
 
 ## License
