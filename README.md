@@ -74,6 +74,8 @@ Regarding our Deep Learning models, we utilised a large amount of manual hyper-p
 
 ![image](https://user-images.githubusercontent.com/47773746/128126620-d0357c78-2729-4f9a-9ce3-c81d4436d5d7.png)
 
+<img width="425" alt="Screen Shot 2021-08-04 at 3 30 34 pm" src="https://user-images.githubusercontent.com/47773746/128127138-4ed5199a-bc86-4890-ab24-f44bb9aa6a9b.png">
+
 ### Part 1.4: Feature Extraction for Deep Learning Models
 
 Extracting our features for our Deep Learning models was significantly easier than for our standard models. This is because all we had to do was convert the given images into pixel arrays using the Python library Pydicom, and reformat the array in a way that was acceptable for our Neural Networks (this shape was 128x128x3).
