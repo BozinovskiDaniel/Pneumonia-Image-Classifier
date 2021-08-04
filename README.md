@@ -50,7 +50,7 @@ Within this section, we will discuss all the various aspects that we considered 
 -	Our evaluation metrics used
 -	How we selected our best model to run against the final test data
 
-### Part 1.1: Reviewing Relevant Algorithms
+#### Part 1.1: Reviewing Relevant Algorithms
 
 Literature regarding the best ways to classify an image almost all pointed towards utilising Neural Networks, specifically a special type of neural network called a Convolutional Neural Network (CNN). (MediumDataDrivenInvestor, 2019) This is because CNNs automatically detect the most important features of an image without any human supervision. Also, the concept of dimensionality reduction perfectly suits the significant number of parameters in each image. (MediumDataDrivenInvestor, 2019)
 
