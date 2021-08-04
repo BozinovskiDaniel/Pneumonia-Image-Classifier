@@ -17,16 +17,6 @@ This is a README.md for a ML project from Kaggle.
 |  2   |   [Modelling Pneumonia - Standard Models](https://www.kaggle.com/danielbozinovski/p2-modelling-pneumonia-standard-models)    | This notebook goes through Optimal Hyper-parameter search & K-Fold Cross Validation for Standard Models. Standard models include: <b>Logistic Regression</b>, <b>kNN</b>, <b>Gaussian Naive Bayes</b>, <b>Random Forest</b>, <b>SVM</b> & <b>Gradient Boosted Classifier</b> |
 |  3   | [Modelling Pneumonia - Deep Learning Models](https://www.kaggle.com/danielbozinovski/p3-modelling-pneumonia-neural-networks) | This notebook does through Optimal Hyper-paramter search and K-Fold Cross Validation for Deep Learning Models. DL Models include: <b>Fully-Connected NN</b>, <b>Convolutional NN</b>, <b>Mobile-Net w/ Transfer Learning</b>                                                 |
 
-## Raw Links to Notebooks
-
-- <b><i>P0 - Notebook 1:</i></b> https://www.kaggle.com/danielbozinovski/p0-exploratory-data-analysis
-
-- <b><i>P1 - Notebook 2:</i></b> https://www.kaggle.com/danielbozinovski/p1-feature-extraction-for-standard-models
-
-- <b><i>P2 - Notebook 3:</i></b> https://www.kaggle.com/danielbozinovski/p2-modelling-pneumonia-standard-models
-
-- <b><i>P3 - Notebook 4:</i></b> https://www.kaggle.com/danielbozinovski/p3-modelling-pneumonia-neural-networks
-
 ## Overview
 
 We are challenged to build an algorithm to detect for Pneumonia in medical images.
