@@ -4,8 +4,6 @@ This is a README.md for a ML project from Kaggle.
 
 @Kaggle Competition: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
-<hr>
-
 <b><i>Each Notebook Name is hyper-linked to the Kaggle Notebook code in the table below</i></b>
 
 ## Contents
