@@ -117,6 +117,8 @@ Results from our 5-Fold Cross Validation are shown below in Table 3. As explaine
 
 Specifically, MobileNet seemed to out-perform the rest, even though it doesn't have the most parameters. This demonstrates the power of transfer learning over a trained model. The CNN model came in second as CNNs perform better than fully connected networks on binary image classification, with a lot less parameters; this is because of their shared-weights architecture and translation invariance characteristics.
 
+Below is a table of the average results obtained from performing K-Fold Cross Validation on the models.
+
 <img width="488" alt="Screen Shot 2021-08-04 at 3 35 37 pm" src="https://user-images.githubusercontent.com/47773746/128127553-8634dc99-150d-4760-985a-615c88897868.png">
 
 ### Part 2.3: Performance of Our Best Algorithm - MobileNet w/Transfer Learning
@@ -128,6 +130,21 @@ We see how MobileNet managed to outperform the other 8 algorithms, even though i
 |  98.900% | 98.890%  |  99.073% | 99.665%  | 0.0515  |
 
 ![image](https://user-images.githubusercontent.com/47773746/128127594-d4cb8060-b6cf-47d4-a245-5f31c12a2f14.png)
+
+Confusion Matrix:
+
+|          | <b>Positive</b>      |  <b>Negative</b> |
+|:----------|:-------------:|:------:|
+| <b>Positive</b> |  1363         | 20    |
+| <b>Negative</b> |    13         | 1604  |
+
+- From our confusion matrix, we can see that our model made the following predictions:
+  - <b>1363 sick</b> patients were <b>correctly</b> predicted as <b>having Pneumonia</b>
+  - <b>1604 healthy</b> patients were <b>correctly</b> predicted as <b>not having Pneumonia</b>
+  - <b>13 sick</b> patients were <b>incorrectly</b> predicted as <b>not having Pneumonia</b>
+  - <b>20 healthy</b> patients were <b>incorrectly</b> predicted as <b>having Pneumonia</b>
+
+
 
 ## License
 
