@@ -1,6 +1,6 @@
-# COMP9417 ML Project
+# Classifying Pneumonia in Medical Images
 
-This is a README.md for a ML project created for <b>COMP9417 @ UNSW</b>.
+This is a README.md for a ML project from Kaggle.
 
 @Kaggle Competition: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
